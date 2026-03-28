@@ -5,7 +5,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter a number");
 int num=sc.nextInt();
   int sum=0;
-  for(int i=1;i<num;i++){
+  for(int i=1;i<=n/2;i++){
     if(num%i==0){
       System.out.println(num+" is divisible by "+i);
       sum=sum+i;
