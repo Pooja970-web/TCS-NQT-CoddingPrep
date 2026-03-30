@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Sum of factorial of its digits = number itself
 public class StrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

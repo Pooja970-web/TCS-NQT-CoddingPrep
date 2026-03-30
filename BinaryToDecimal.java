@@ -1,5 +1,6 @@
 import java.util.*;
-
+/*1×2³ + 0×2² + 1×2¹ + 0×2⁰  
+= 8 + 0 + 2 + 0 = 10 */
 public class BinaryToDecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
