@@ -3,7 +3,7 @@ import java.util.*;
 public class Reverse {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+System.out.println("Enter a string to reverse:");
         String str = sc.nextLine();
         String rev = "";
 
@@ -11,6 +11,6 @@ public class Reverse {
             rev += str.charAt(i);
         }
 
-        System.out.println(rev);
+        System.out.println("Reversed string: " + rev);
     }
 }
