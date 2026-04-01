@@ -3,7 +3,7 @@ import java.util.*;
 public class CountVowels {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+System.out.println("Enter a string to count the number of vowels:");
         String str = sc.nextLine().toLowerCase();
         int count = 0;
 
@@ -15,6 +15,6 @@ public class CountVowels {
             }
         }
 
-        System.out.println(count);
+        System.out.println("The number of vowels in the string is: " + count);
     }
 }
