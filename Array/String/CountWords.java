@@ -3,7 +3,7 @@ import java.util.*;
 public class CountWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+System.out.println("Enter a string to count the number of words:");
         String str = sc.nextLine().trim();
         int count = 1;
 
@@ -12,7 +12,6 @@ public class CountWords {
                 count++;
             }
         }
-
-        System.out.println(count);
+        System.out.println("The number of words in the string is: " +   count);
     }
 }
